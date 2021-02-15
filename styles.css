@@ -41,3 +41,7 @@ th {
   background-color: #eaecf0;
   padding-left: 4px;
 }
+
+#scene-img {
+  float: right;
+}
