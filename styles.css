@@ -1,0 +1,17 @@
+body {
+  margin: 48px;
+  font-family: sans-serif;
+}
+
+h1, h2 {
+  font-family: serif;
+
+}
+
+h1, h2, h3 {
+    margin-top: 48px;
+}
+
+blockquote {
+  font-style: italic;
+}
