@@ -1,10 +1,13 @@
 body {
   margin: 48px;
   font-family: sans-serif;
+  font-size: 1.2em;
+  line-height: 1.5;
 }
 
 h1, h2 {
   font-family: serif;
+  border-bottom: 1px black solid;
 
 }
 
@@ -51,4 +54,31 @@ figure {
     text-align: center;
     border:1px solid #000;
     padding: 4px;
+}
+
+.square-bullets {
+  list-style-type: square;
+}
+
+table {
+  border: 1px black solid;
+  background-color:#f8f9fa;
+  text-align: left;
+  border-collapse: collapse;
+}
+
+td {
+  border: 1px black solid;
+  padding-left: 4px;
+
+}
+
+th {
+  border: 1px black solid;
+  background-color: #eaecf0;
+  padding-left: 4px;
+}
+
+#scene-img {
+  float: right;
 }
