@@ -1,10 +1,13 @@
 body {
   margin: 48px;
   font-family: sans-serif;
+  font-size: 1.2em;
+  line-height: 1.5;
 }
 
 h1, h2 {
   font-family: serif;
+  border-bottom: 1px black solid;
 
 }
 
@@ -14,4 +17,8 @@ h1, h2, h3 {
 
 blockquote {
   font-style: italic;
+}
+
+.square-bullets {
+  list-style-type: square;
 }
