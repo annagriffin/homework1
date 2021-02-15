@@ -22,3 +22,22 @@ blockquote {
 .square-bullets {
   list-style-type: square;
 }
+
+table {
+  border: 1px black solid;
+  background-color:#f8f9fa;
+  text-align: left;
+  border-collapse: collapse;
+}
+
+td {
+  border: 1px black solid;
+  padding-left: 4px;
+
+}
+
+th {
+  border: 1px black solid;
+  background-color: #eaecf0;
+  padding-left: 4px;
+}
