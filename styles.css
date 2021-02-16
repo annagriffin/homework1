@@ -15,9 +15,39 @@ h1, h2, h3 {
     margin-top: 48px;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.heading {
+  width: 100%;
+}
+
+.subcontainer {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
+
+.column1 {
+  width: 50%;
+  padding-right: 25px;
+}
+
+.col2_heading {
+  margin-top: 1px;
+}
+
+.column2 {
+  width: 50%;
+}
+
 blockquote {
   font-style: italic;
 }
+
 
 ul.contents {
     display:inline-block;
